@@ -38,6 +38,7 @@ app.get("/help", (req, res) => {
   res.render("help", {
     title: "help me",
     name: "ankit",
+    helpText: "This is a help page.",
   });
 });
 
